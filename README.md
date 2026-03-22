@@ -2,7 +2,7 @@
 
 **Encode and decode text with 24+ operations — Base64, URL, Hex, HTML, and more with chaining.**
 
-Part of [OffSecKit](https://offseckit.com) | [Browser version](https://offseckit.com/tools/encode) | [Unified CLI](https://github.com/offseckit/cli)
+Part of [OffSecKit](https://offseckit.com) | [Browser version](https://offseckit.com/tools/encode) | [Unified CLI](https://github.com/offseckit/osk)
 
 ## Install
 
@@ -33,7 +33,7 @@ osk encode list
 
 ## Related
 
-- [OffSecKit CLI](https://github.com/offseckit/cli) — full toolkit (`pip install offseckit`)
+- [OffSecKit CLI](https://github.com/offseckit/osk) — full toolkit (`pip install offseckit`)
 - [Browser version](https://offseckit.com/tools/encode) — use in your browser
 - [Encoding Guide](https://offseckit.com/blog/encoding-decoding-pentest-guide) — practical techniques for pentesters
 
