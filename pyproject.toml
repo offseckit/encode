@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offseckit-encode"
+version = "0.1.0"
+description = "Encoding/decoding multi-tool CLI — Base64, URL, Hex, HTML, and more with chaining"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "OffSecKit", email = "dev@offseckit.com" }]
+keywords = [
+    "encoding",
+    "decoding",
+    "base64",
+    "pentesting",
+    "offensive-security",
+    "red-team",
+    "bug-bounty",
+    "hacking",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+dependencies = ["click>=8.0"]
+
+[project.scripts]
+encode = "encode.cli:main"
+
+[project.urls]
+Homepage = "https://offseckit.com/tools/encode"
+Repository = "https://github.com/offseckit/encode"
